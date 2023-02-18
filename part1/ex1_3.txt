@@ -1,0 +1,14 @@
+# start the container
+docker run -d -it devopsdockeruh/simple-web-service:ubuntu
+
+# check the name of the container
+docker ps -a
+
+# go inside the container
+docker exec -it brave_feynman bash
+
+# inside the container, run:
+tail -f ./text.log
+
+# the solution is:
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
