@@ -1,0 +1,2 @@
+docker build ex1_7 -t ex1_7
+docker run ex1_7
