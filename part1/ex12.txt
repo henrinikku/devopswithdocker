@@ -1,0 +1,4 @@
+docker build ex1_12 -t frontend
+
+# Something in my computer was already using port 5000, so I used 5001 instead
+docker run -p 5001:5001 frontend

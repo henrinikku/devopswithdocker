@@ -1,0 +1,2 @@
+mkdir temp && touch temp/text.log
+docker run -v "$(pwd)/temp/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
