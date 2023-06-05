@@ -10,4 +10,6 @@ RUN go build -o /server
 
 EXPOSE 8080
 
+ENV REQUEST_ORIGIN="http://localhost:5001"
+
 CMD ["/server"]

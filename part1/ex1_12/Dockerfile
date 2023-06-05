@@ -2,6 +2,8 @@ FROM node:16
 
 EXPOSE 5001
 
+ARG REACT_APP_BACKEND_URL="http://localhost:8080"
+
 WORKDIR /usr/src/app
 
 COPY example-frontend .
